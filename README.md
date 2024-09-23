@@ -31,11 +31,11 @@ npx degit github:user/repo#branch-name <folder-name>
 4. Cloning this project with skeleton
 
 ```bash
-git clone https://github.com/actionanand/directive-deep-dive.git --branch 1-skeleton angular-proj-name
+git clone https://github.com/actionanand/angular-model-signal.git --branch 1-skeleton angular-proj-name
 ```
 
 ```bash
-npx degit github:actionanand/directive-deep-dive#1-skeleton angular-proj-name
+npx degit github:actionanand/angular-model-signal#1-skeleton angular-proj-name
 ```
 
 ## Automate using `Prettier`, `Es Lint` and `Husky`

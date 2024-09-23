@@ -1,13 +1,13 @@
 {
-  "name": "directive-deep-dive",
+  "name": "angular-model-signal",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build:gh": "ng build --base-href /directive-deep-dive/",
-    "copy-error-page": "cp dist/directive-deep-dive/browser/index.html dist/directive-deep-dive/browser/404.html",
+    "build:gh": "ng build --base-href /angular-model-signal/",
+    "copy-error-page": "cp dist/angular-model-signal/browser/index.html dist/angular-model-signal/browser/404.html",
     "precommit": "run-s format:fix lint",
     "format:fix": "pretty-quick --staged",
     "format:check": "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
