@@ -1,0 +1,10 @@
+<!-- eslint-disable @angular-eslint/template/interactive-supports-focus -->
+<!-- eslint-disable @angular-eslint/template/click-events-have-key-events -->
+<div
+  id="rect"
+  class="tooltip"
+  [style.width]="size().width + 'px'"
+  [style.height]="size().height + 'px'"
+  (click)="onReset()">
+  <span class="tooltiptext"> {{ resetTxt }} </span>
+</div>
