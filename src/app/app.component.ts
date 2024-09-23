@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+
+import { RectComponent } from './rect/rect.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [RectComponent, FormsModule],
 })
 export class AppComponent {
-  title = 'Essentials 18';
+  rectSize = {
+    width: '100',
+    height: '100',
+  };
 }

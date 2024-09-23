@@ -1,4 +1,13 @@
-{{ title }}
-
-
-<router-outlet />
+<!-- eslint-disable @angular-eslint/template/label-has-associated-control -->
+<h2>Angular Model Input Signal</h2>
+<div id="inputs">
+  <p>
+    <label>Width</label>
+    <input type="number" step="1.0" [(ngModel)]="rectSize.width" />
+  </p>
+  <p>
+    <label>Height</label>
+    <input type="number" step="1.0" [(ngModel)]="rectSize.height" />
+  </p>
+</div>
+<app-rect [(size)]="rectSize" />
