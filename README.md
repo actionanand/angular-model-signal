@@ -226,3 +226,4 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 - [Angular 16 - milestone release](https://github.com/actionanand/ng16-signal-milestone-release)
 - [Angular Directive Deep Dive with Model Signal](https://github.com/actionanand/directive-deep-dive)
 - [CSS Tooltip - W3schools](https://www.w3schools.com/css/css_tooltip.asp)
+- [Angular Signals Component API: input, output, model (Complete Guide)](https://blog.angular-university.io/angular-signal-components/)
